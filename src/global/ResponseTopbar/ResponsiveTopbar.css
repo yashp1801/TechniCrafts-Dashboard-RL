@@ -1,0 +1,45 @@
+.reponsiveTopbar {
+  position: fixed;
+  height: max-content;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%; /* set the width of the sidebar */
+ /* add scrollability to the sidebar */
+ box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+ z-index: 10000;
+}
+
+.reponsiveTopbar__menu__wrapper {
+  padding: 20px;
+  height: 100vh;
+  width: 100%;
+  overflow-y: auto; 
+  background-color: #f7f7f7;
+  -webkit-overflow-scrolling: touch;
+}
+
+.reponsiveTopbar__menu {
+  margin-bottom: 20px;
+  width: 50%;
+}
+
+.reponsiveTopbar__menu h1 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.reponsiveTopbar__menu a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  transition: all 0.2s ease-in-out;
+}
+
+.reponsiveTopbar__menu a:hover {
+  color: #007bff;
+}

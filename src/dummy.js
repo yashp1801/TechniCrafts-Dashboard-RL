@@ -1,0 +1,15 @@
+const data = [
+  {timestamp: '2023-04-18 15:43:00', TSS: 24.12, pH: 7.43, COD: 15.51},
+  {timestamp: '2023-04-18 15:44:00', TSS: 24.12, pH: 7.43, COD: 15.51},
+  {timestamp: '2023-04-18 15:45:00', TSS: 24.12, pH: 7.43, COD: 15.51},
+  {timestamp: '2023-04-18 15:46:00', TSS: 24.12, pH: 7.43, COD: 15.51},
+  {timestamp: '2023-04-18 15:47:00', TSS: 24.12, pH: 7.43, COD: 15.51},
+  {timestamp: '2023-04-18 15:48:00', TSS: 24.12, pH: 7.43, COD: 15.51},
+  {timestamp: '2023-04-18 15:49:00', TSS: 24.12, pH: 7.43, COD: 15.51},
+  {timestamp: '2023-04-18 15:50:00', TSS: 24.12, pH: 7.43, COD: 15.51},
+  {timestamp: '2023-04-18 15:51:00', TSS: 24.12, pH: 7.43, COD: 15.51},
+  {timestamp: '2023-04-18 15:52:00', TSS: 24.12, pH: 7.43},
+  {timestamp: '2023-04-18 17:13:00', TSS: null, pH: null, COD: 323.96},
+  {timestamp: '2023-04-18 17:14:00', TSS: null, pH: null, COD: 323.96},
+  {timestamp: '2023-04-18 19:35:00', TSS: null, pH: null, COD: 325.13},
+];

@@ -1,0 +1,27 @@
+.camera-stream {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.heading {
+  font-size: 24px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.video {
+  max-width: 100%;
+  max-height: 100%;
+  border: 5px solid #ffffff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.description {
+  font-size: 18px;
+  color: #666666;
+  margin-top: 10px;
+}

@@ -1,0 +1,8 @@
+
+.piechart__wrapper {
+  padding: 10px;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.089);
+  background-color: #fff;
+}

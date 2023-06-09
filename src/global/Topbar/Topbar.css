@@ -1,0 +1,150 @@
+.topbar {
+  width: 100%;
+  background-color: #353839;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  box-shadow: 0px 2px 5px 0px rgba(104, 102, 102, 0.336);
+}
+
+.topbar__logo img {
+  height: 30px;
+  user-select: none;
+  pointer-events: none;
+}
+
+.topbar__menuBtn {
+  padding: 5px;
+  font-size: 0.9rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-right: 1rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.topbar__menulist {
+  background-color: #fff;
+  padding: 10px;
+  width: 300px;
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.116);
+  border-radius: 5px;
+  z-index: 999;
+}
+.topbar__menulist__menuItem {
+  background-color: #fff;
+  border: none;
+}
+.topbar__menu {
+  width: max-content;
+}
+
+.topbar__menuLink {
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 5px;
+  border-radius: 5px;
+  width: 100%;
+  color: #141414;
+  transition: 0.2s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.topbar__menuLink.wip {
+  color: #14141456;
+}
+.topbar__menuLink__icon {
+  font-size: 1.2rem;
+  color: #141414;
+  transform: translateX(-10px);
+  visibility: hidden;
+  transition: 0.1s ease;
+}
+
+/* Full Screen Icon */
+.topbar__fullscreen__icon {
+  font-size: 2rem;
+  color: #fff;
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.topbar__fullscreen__icon:hover {
+  background-color: #506688;
+}
+.topbar__menuLink:hover {
+  background-color: rgba(255, 4, 255, 0.185);
+  transition: 0.2s ease;
+}
+.topbar__menuLink:hover .topbar__menuLink__icon {
+  transform: translateX(0);
+  visibility: visible;
+  transition: 0.2s ease;
+}
+.topbar__myaccount__icon {
+  font-size: 1.4rem;
+  position: relative;
+  font-weight: 100;
+}
+.topbar__myaccount__icon__notificationAlert {
+  position: absolute;
+  bottom: 0;
+  right: -20%;
+  font-size: 2rem;
+  color: royalblue;
+}
+.topbar__menulist__menuItem__notificationAlert {
+  color: royalblue;
+  position: absolute;
+  top: 0;
+  left: 34%;
+  font-size: 1.8rem;
+}
+.topbar__hamburger__menu__icon {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-size: 3rem;
+}
+.hamburger__menu {
+  display: none;
+  text-align: end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: max-content;
+  z-index: 100000;
+}
+.responsiveMenu__toggle__icon {
+  font-size: 2.5rem;
+  color: #141414;
+}
+
+/* Resposive Code */
+
+@media screen and (max-width: 1250px) {
+  .topbar__menuBtn {
+    margin-right: 0;
+  }
+  .topbar__logo img {
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .topbar {
+    display: none;
+  }
+  .hamburger__menu {
+    display: inline;
+  }
+}

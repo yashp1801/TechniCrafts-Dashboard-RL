@@ -1,0 +1,119 @@
+.workflow {
+  height: 100vh;
+  width: 100%;
+  padding: 5rem 3rem 3rem 3rem;
+}
+.dropdown {
+  font-size: 3rem;
+}
+
+.workflow__header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.workflow__header button {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgba(65, 105, 225, 0.199);
+  color: royalblue;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.workflowpopup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: #fff;
+}
+
+.workflowpopup {
+  padding: 5rem 3rem 3rem 3rem;
+  width: 100%;
+}
+.workflow__popup__content {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.workflowpopup textarea {
+  width: 80%;
+  margin-top: 1rem;
+  height: 200px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #dfdfdf;
+  background-color: #f5f4f4;
+  border-radius: 5px;
+  resize: none;
+  outline: none;
+}
+.workflowpopup textarea:hover {
+  border: 1px solid royalblue;
+  transition: 0.2s ease-in all;
+}
+.workflowpopup textarea:focus {
+  border: 1px solid royalblue;
+}
+
+.workflow__popup__submitBtn {
+  display: block;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  background-color: rgba(65, 105, 225, 0.253);
+  color: royalblue;
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+}
+.workflow__popup__submitBtn__icon {
+  font-size: 1.2rem;
+  color: royalblue;
+  margin-left: 10px;
+}
+
+.workflow__popup__submitBtn:hover {
+  background-color: rgba(65, 105, 225, 0.397);
+  transition: 0.1s all;
+}
+.workflow__header__btn__icon {
+  font-size: 1.1rem;
+  margin-right: 5px;
+}
+
+/* Not Avaiable Styling  */
+.workflow__NA {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.workflow__NA video {
+  height: 200px;
+  margin-bottom: 2%;
+}
+.workflow__NA h1 {
+  font-size: 1rem;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: #5e5e5e;
+}

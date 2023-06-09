@@ -1,0 +1,39 @@
+.notfound {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.notfound__content__wrapper {
+  width: 50%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.notfound__content__wrapper h1 {
+  font-size: 3rem;
+  font-weight: 550;
+  color: #141414;
+}
+.notfound__content__wrapper p {
+  color: #5f5e5e;
+  font-weight: 550;
+  margin-bottom: 2rem;
+}
+.notfound__icon {
+  font-size: 15rem;
+  color: royalblue;
+}
+.notfound__content__wrapper__link {
+  padding: 10px;
+  background-color: royalblue;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 0.9rem;
+}

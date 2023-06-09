@@ -1,0 +1,113 @@
+.account {
+  padding: 2rem;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #9494940e;
+}
+.account__wrapper {
+  width: 80%;
+}
+.account__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid #14141449;
+  padding: 1.5rem 0;
+}
+.account__header h1 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.account__header button {
+  padding: 5px 20px;
+  border: none;
+  border-radius: 1rem;
+  font-weight: 500;
+  color: #fff;
+  background-color: royalblue;
+  cursor: pointer;
+  text-decoration: none;
+}
+.account__info__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  padding-top: 2rem;
+}
+
+.account__info__leftside__icon {
+  font-size: 7rem;
+  background-color: rgba(65, 105, 225, 0.11);
+  padding: 20px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.account__info__leftside__icon.admin{
+  color: gold;
+  background-color: rgba(255, 217, 5, 0.164);
+}
+.account__info__leftside h1 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.account__info__leftside span {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #14141493;
+  display: block;
+}
+
+.account__info__rightSide h1 {
+  font-weight: 600;
+  color: #141414;
+}
+
+.account__info__card__wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 2rem;
+  gap: 2rem;
+}
+
+.account__info__rightSide p {
+  color: #575656;
+  font-weight: 500;
+}
+
+.account__info__card {
+  border: 1px solid #e2e1e1;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 80%;
+  height: 100%;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.card__info__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__info__wrapper h1 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.card__info__wrapper span {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #141414;
+  margin-top: 10px;
+}
+
+.card__info__wrapper__icon {
+  font-size: 1.5rem;
+  color: royalblue;
+}

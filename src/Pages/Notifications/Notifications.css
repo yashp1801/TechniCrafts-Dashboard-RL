@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+.notifications {
+  height: max-content;
+  width: 100%;
+  padding: 5rem 2rem 2rem 2rem;
+}
+.notifications__container {
+  background-color: #fff;
+  padding: 1rem;
+  height: 100%;
+  height: max-content;
+}
+.notifications__container h1 {
+  color: #141414;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.notifications__tab {
+  color: #141414;
+  font-family: "Poppins", sans-serif;
+}
+
+.notifications__email__card {
+  border: 1px solid rgba(92, 87, 87, 0.329);
+  padding: 1.5rem;
+  border-radius: 5px;
+  background-color: #8b88880c;
+  width: 80%;
+  margin-bottom: 10px;
+}
+.card__email {
+  padding: 5px;
+  border-radius: 3px;
+  color: #141414;
+  font-weight: 500;
+  background-color: rgba(255, 0, 0, 0.445);
+}
+
+.notifications__email__card p {
+  margin-top: 10px;
+  font-weight: 500;
+  color: #141414;
+}
+
+.notifications__tabpanel {
+  height: 600px;
+  overflow: scroll;
+}

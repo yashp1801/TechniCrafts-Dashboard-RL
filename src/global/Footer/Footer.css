@@ -1,0 +1,35 @@
+.footer {
+  width: 100%;
+  height: max-content;
+  padding: 1rem;
+  text-align: center;
+  background-color: royalblue;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.footer__header__wrapper {
+  border-bottom: 1px solid #adadad;
+  padding: 1rem;
+}
+.footer__header__wrapper img {
+  height: 80px;
+}
+.footer__header__wrapper h1 {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+.footer__header__wrapper p {
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.footer__copyright__wrapper {
+  margin-top: 1rem;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.8rem;
+}

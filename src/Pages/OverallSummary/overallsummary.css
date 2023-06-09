@@ -1,0 +1,317 @@
+.overallsummary {
+  height: max-content;
+  width: 100%;
+  padding: 1rem;
+  padding-top: 5rem;
+  overflow: hidden;
+  position: relative;
+  background-color: #3d8ccc05;
+}
+.overallsummary__title {
+  font-size: 2rem;
+  color: royalblue;
+  font-weight: 550;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.overallsummary__title__icon {
+  font-weight: 600;
+  margin-left: 10px;
+}
+.dashboard__container {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: max-content;
+  gap: 1rem;
+}
+
+.overallsummary__leftside__wrapper {
+  width: 80%;
+}
+
+/* Cards Styling */
+
+.overallsummary__bardiagram__infocard {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px; /* specify the gap between the cards */
+  width: 100%;
+  height: 100%;
+  margin-bottom: 1rem;
+  background-color: rgb(201, 201, 201);
+  border-radius: 10px;
+  padding: 10px;
+}
+.overallsummary__header__card {
+  width: 220px;
+  padding: 10px 15px;
+  background-color: #fff;
+  border-radius: 1rem;
+}
+
+.card__content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.card__content__h5 {
+  border-top: 1px solid #a5a3a3;
+  width: 100%;
+  padding-top: 5px;
+}
+.overallsummary__header__card .card__content p {
+  font-size: 1rem;
+  color: var(--light-black);
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.overallsummary__header__card .card__content h1 {
+  font-weight: 500;
+  color: var(--dark-black);
+  font-size: 4rem;
+}
+.card__content__main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.card__content__main__link {
+  margin-top: 10px;
+  padding: 5px;
+  font-weight: 500;
+  color: #141414;
+  text-decoration: none;
+  border-radius: 5px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card__content__main__link__icon {
+  font-size: 1.5rem;
+  color: #141414;
+  transition: 0.2s ease all;
+  margin-right: 5px;
+}
+
+.card__content__main__link:hover .card__content__main__link__icon {
+  margin-right: 0;
+}
+
+.card__content__main__link:hover {
+  background-color: rgba(65, 105, 225, 0.144);
+}
+
+.card__content__h5 h5 {
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.card__icon {
+  font-size: 2rem;
+  color: #3d8ccc;
+}
+
+.overallsummary__rightside__wrapper {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+
+/* Bar Chart Styling */
+
+.overall__summary__barchart {
+  padding: 1rem;
+  box-shadow: 0px 0px 43px 0px rgba(0, 0, 0, 0.144);
+  background-color: #fff;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+.barchart__header {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.overallsummary__sitesdatatable {
+  background-color: #fff;
+}
+/* Data table  */
+
+/* Subscription PopUp */
+.subPopup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: #14141441;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+  transition: 0.2 ease;
+}
+.subPopup__container {
+  height: max-content;
+  width: 50%;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.subPopup__container__video {
+  height: 150px;
+}
+.subPopup__container__header {
+  margin-top: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: red;
+}
+.subPopup__container__discription {
+  font-size: 1.1rem;
+  color: #141414b2;
+  font-weight: 600;
+  margin: 1rem 0;
+}
+.subPopup__container__discription__span {
+  color: rgba(255, 0, 0, 0.836);
+}
+.subPopup__container__button {
+  font-size: 1.1rem;
+  padding: 5px 20px;
+  text-transform: capitalize;
+  border: none;
+  background-color: #000000;
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.subPopup__container__closeBtn {
+  font-size: 2rem;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1350px) {
+  .overallsummary__leftside__wrapper {
+    width: 70%;
+  }
+  .card__content__main h1 {
+    font-size: 3rem !important;
+  }
+  .overallsummary__header__card {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .overallsummary__leftside__wrapper {
+    width: 70%;
+  }
+
+  .overallsummary__bardiagram__infocard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .card {
+    height: 250px;
+    width: 100%;
+  }
+}
+
+/* Tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Overall Summary */
+  .overallsummary {
+    padding-top: 3rem;
+  }
+
+  /* Dashboard Container */
+  .dashboard__container {
+    flex-wrap: wrap;
+  }
+
+  /* Overall Summary Left Side Wrapper */
+  .overallsummary__leftside__wrapper {
+    width: 100%;
+  }
+
+  /* Overall Summary Right Side Wrapper */
+  .overallsummary__rightside__wrapper {
+    width: 100%;
+  }
+
+  /* Bar Chart Styling */
+  .overall__summary__barchart {
+    margin-bottom: 2rem;
+  }
+  .overallsummary__rightside__wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  /* Overall Summary */
+  .overallsummary {
+    padding-top: 2rem;
+  }
+
+  /* Overall Summary Title */
+  .overallsummary__title {
+    font-size: 1.2rem;
+  }
+
+  /* Dashboard Container */
+  .dashboard__container {
+    flex-wrap: wrap;
+  }
+
+  /* Cards Styling */
+  .overallsummary__header__card {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  /* Overall Summary Left Side Wrapper */
+  .overallsummary__leftside__wrapper {
+    width: 100%;
+  }
+
+  /* Overall Summary Right Side Wrapper */
+  .overallsummary__rightside__wrapper {
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  /* Bar Chart Styling */
+  .overall__summary__barchart {
+    margin-bottom: 2rem;
+  }
+
+  /* Subscription PopUp */
+  .subPopup__container {
+    width: 90%;
+  }
+}

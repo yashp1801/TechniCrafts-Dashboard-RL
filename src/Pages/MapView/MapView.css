@@ -1,0 +1,17 @@
+.mapview {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.googlemap {
+  height: 100%;
+  width: 100%;
+}
+.marker {
+  position: static;
+}
+
+.marker__icon{
+  color: green;
+}
